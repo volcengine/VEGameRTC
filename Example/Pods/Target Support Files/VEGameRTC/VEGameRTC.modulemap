@@ -1,0 +1,6 @@
+framework module VEGameRTC {
+  umbrella header "VEGameRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}

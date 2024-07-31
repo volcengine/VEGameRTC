@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		80FC876710190D6B2A390F0F72D13677 /* VEGameRTC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 490C5B4514541B1955219586DF285619 /* Build configuration list for PBXAggregateTarget "VEGameRTC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = VEGameRTC;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08B58191AF29DEB5B6E95A8330315624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2EF8BDE0799AC55FE9D68AA2808C048D /* Pods-VEGameRTC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5B5E4CD6BC785F1655A01E14B61C85 /* Pods-VEGameRTC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		504AD18235C4F39C20AD03AC27B56301 /* Pods-VEGameRTC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3B3C6CCD6EC8F787968883C204BF95 /* Pods-VEGameRTC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71B18ECD7FF9DBE747D715ED7363494E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BBCCD607289730E2FBC3D2D9587A35D2 /* Pods-VEGameRTC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B68D6B632A239CE13767FB3D418A6E /* Pods-VEGameRTC_Example-dummy.m */; };
+		EC83CBFDF92742A80C65EE0BAD2C033E /* Pods-VEGameRTC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6480D400D5F0293BEDD8C82F9C86C6AD /* Pods-VEGameRTC_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C02217A4D5B83A55266F71509EA38E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1490FC383347640CABEB02E722CACA2E;
+			remoteInfo = "Pods-VEGameRTC_Example";
+		};
+		3F830744D1B00A40713A376E3CC2592B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FC876710190D6B2A390F0F72D13677;
+			remoteInfo = VEGameRTC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EDB5CA802178128085AD931AB8F4E76 /* VEGameRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEGameRTC.release.xcconfig; sourceTree = "<group>"; };
+		11140C180929941D870F5DCF74A0359A /* Pods-VEGameRTC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGameRTC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C3B3C6CCD6EC8F787968883C204BF95 /* Pods-VEGameRTC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VEGameRTC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2EC73D5A610617B937D4A9EF36F454CF /* Pods-VEGameRTC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGameRTC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2FB70AD75F3CBAF4C3E8B97F7910FF65 /* VEGameRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VEGameRTC.debug.xcconfig; sourceTree = "<group>"; };
+		3138D03784038DC367760C36559C0263 /* Pods-VEGameRTC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VEGameRTC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33F1865BEE14CD3E3EFC1DD2FC4C2EA5 /* Pods-VEGameRTC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VEGameRTC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B6E7A3E35362C90FFDB4E0B77F0E771 /* Pods-VEGameRTC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEGameRTC_Tests-Info.plist"; sourceTree = "<group>"; };
+		3F329289CD908D65C4777D7F26DEF4F2 /* Pods-VEGameRTC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEGameRTC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5031124FC269F78D7FFED2828EF2C779 /* Pods-VEGameRTC_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VEGameRTC_Tests"; path = Pods_VEGameRTC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6480D400D5F0293BEDD8C82F9C86C6AD /* Pods-VEGameRTC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VEGameRTC_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78E81ED615BAF329A5CEEAB73669E1EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C6BA53133CFA9A266B757E3019AB0DA /* Pods-VEGameRTC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEGameRTC_Example-Info.plist"; sourceTree = "<group>"; };
+		7D5B5E4CD6BC785F1655A01E14B61C85 /* Pods-VEGameRTC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VEGameRTC_Example-umbrella.h"; sourceTree = "<group>"; };
+		849BA6608A4F1389E4F4FFB3A5FBBDBE /* Pods-VEGameRTC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGameRTC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99ED9003643407072F3DDF958955A5CA /* VEGameDESC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VEGameDESC.h; path = VEGameRTC/Classes/VEGameDESC.h; sourceTree = "<group>"; };
+		9D425615C6B5AB710E6F5F7AB68D63CD /* VEGameRTC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VEGameRTC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEBFD497341C9118BB5C0030CEA1DF99 /* Pods-VEGameRTC_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VEGameRTC_Example"; path = Pods_VEGameRTC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1826D14B214A10CBC723128292651D0 /* Pods-VEGameRTC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VEGameRTC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BC017EF9EEC2F1994C21354E39E7A06C /* Pods-VEGameRTC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VEGameRTC_Tests.modulemap"; sourceTree = "<group>"; };
+		D22A637D780B1128A49E37D62C66E12D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D3DA4094EB9140CE47963CF855CE487E /* Pods-VEGameRTC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VEGameRTC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9671BA64AD77E250326A003B004C246 /* Pods-VEGameRTC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VEGameRTC_Example.modulemap"; sourceTree = "<group>"; };
+		F5B68D6B632A239CE13767FB3D418A6E /* Pods-VEGameRTC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VEGameRTC_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F15114E792FD87319F829DD6EF00E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B58191AF29DEB5B6E95A8330315624 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA73224EBFFFAD96D8EE1920EA7ACF01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B18ECD7FF9DBE747D715ED7363494E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203A0CE1755235BA914BE2660307AF4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				728C04C6BDBFFEEF6562E2C4C3F8010B /* VEGameRTC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		659BCD00795D3F8A16438B310DC363BA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				78E81ED615BAF329A5CEEAB73669E1EA /* LICENSE */,
+				D22A637D780B1128A49E37D62C66E12D /* README.md */,
+				9D425615C6B5AB710E6F5F7AB68D63CD /* VEGameRTC.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		728C04C6BDBFFEEF6562E2C4C3F8010B /* VEGameRTC */ = {
+			isa = PBXGroup;
+			children = (
+				99ED9003643407072F3DDF958955A5CA /* VEGameDESC.h */,
+				659BCD00795D3F8A16438B310DC363BA /* Pod */,
+				B69B963BA93671DA56FA5CD775709878 /* Support Files */,
+			);
+			name = VEGameRTC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8BE69BE608770EFBA733B3E325FAF172 /* Pods-VEGameRTC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E9671BA64AD77E250326A003B004C246 /* Pods-VEGameRTC_Example.modulemap */,
+				33F1865BEE14CD3E3EFC1DD2FC4C2EA5 /* Pods-VEGameRTC_Example-acknowledgements.markdown */,
+				3F329289CD908D65C4777D7F26DEF4F2 /* Pods-VEGameRTC_Example-acknowledgements.plist */,
+				F5B68D6B632A239CE13767FB3D418A6E /* Pods-VEGameRTC_Example-dummy.m */,
+				7C6BA53133CFA9A266B757E3019AB0DA /* Pods-VEGameRTC_Example-Info.plist */,
+				7D5B5E4CD6BC785F1655A01E14B61C85 /* Pods-VEGameRTC_Example-umbrella.h */,
+				2EC73D5A610617B937D4A9EF36F454CF /* Pods-VEGameRTC_Example.debug.xcconfig */,
+				11140C180929941D870F5DCF74A0359A /* Pods-VEGameRTC_Example.release.xcconfig */,
+			);
+			name = "Pods-VEGameRTC_Example";
+			path = "Target Support Files/Pods-VEGameRTC_Example";
+			sourceTree = "<group>";
+		};
+		AE8782CF64A4D13BCDDBE339F5084AE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE69BE608770EFBA733B3E325FAF172 /* Pods-VEGameRTC_Example */,
+				F571263EA77B514350B718D05D1226EB /* Pods-VEGameRTC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B69B963BA93671DA56FA5CD775709878 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FB70AD75F3CBAF4C3E8B97F7910FF65 /* VEGameRTC.debug.xcconfig */,
+				0EDB5CA802178128085AD931AB8F4E76 /* VEGameRTC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VEGameRTC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				203A0CE1755235BA914BE2660307AF4F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D393B8FE2592D9A500D61D8539065C0D /* Products */,
+				AE8782CF64A4D13BCDDBE339F5084AE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D393B8FE2592D9A500D61D8539065C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFD497341C9118BB5C0030CEA1DF99 /* Pods-VEGameRTC_Example */,
+				5031124FC269F78D7FFED2828EF2C779 /* Pods-VEGameRTC_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F571263EA77B514350B718D05D1226EB /* Pods-VEGameRTC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC017EF9EEC2F1994C21354E39E7A06C /* Pods-VEGameRTC_Tests.modulemap */,
+				3138D03784038DC367760C36559C0263 /* Pods-VEGameRTC_Tests-acknowledgements.markdown */,
+				D3DA4094EB9140CE47963CF855CE487E /* Pods-VEGameRTC_Tests-acknowledgements.plist */,
+				6480D400D5F0293BEDD8C82F9C86C6AD /* Pods-VEGameRTC_Tests-dummy.m */,
+				3B6E7A3E35362C90FFDB4E0B77F0E771 /* Pods-VEGameRTC_Tests-Info.plist */,
+				1C3B3C6CCD6EC8F787968883C204BF95 /* Pods-VEGameRTC_Tests-umbrella.h */,
+				849BA6608A4F1389E4F4FFB3A5FBBDBE /* Pods-VEGameRTC_Tests.debug.xcconfig */,
+				B1826D14B214A10CBC723128292651D0 /* Pods-VEGameRTC_Tests.release.xcconfig */,
+			);
+			name = "Pods-VEGameRTC_Tests";
+			path = "Target Support Files/Pods-VEGameRTC_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		329E6C05628D8C02020906338B87AF99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504AD18235C4F39C20AD03AC27B56301 /* Pods-VEGameRTC_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5847377ABD96DF10856A9B6610875 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF8BDE0799AC55FE9D68AA2808C048D /* Pods-VEGameRTC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DF19A1B893FD8076C0FA71F44FF66CC /* Pods-VEGameRTC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F1758861F4634E750C0974597D026F /* Build configuration list for PBXNativeTarget "Pods-VEGameRTC_Tests" */;
+			buildPhases = (
+				329E6C05628D8C02020906338B87AF99 /* Headers */,
+				7197DCD72B30F2552E15F96EA9E25D96 /* Sources */,
+				DA73224EBFFFAD96D8EE1920EA7ACF01 /* Frameworks */,
+				CA350A7B191DC558D399A13DAB6C58FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D8D76FC7870C1DE063B2BCD8C1F93EE /* PBXTargetDependency */,
+			);
+			name = "Pods-VEGameRTC_Tests";
+			productName = Pods_VEGameRTC_Tests;
+			productReference = 5031124FC269F78D7FFED2828EF2C779 /* Pods-VEGameRTC_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		1490FC383347640CABEB02E722CACA2E /* Pods-VEGameRTC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68438BF4D92A29987D633D7CD89A4CEB /* Build configuration list for PBXNativeTarget "Pods-VEGameRTC_Example" */;
+			buildPhases = (
+				BEE5847377ABD96DF10856A9B6610875 /* Headers */,
+				3DF4C4EAC13E2D02EB4D706CED1A8902 /* Sources */,
+				25F15114E792FD87319F829DD6EF00E9 /* Frameworks */,
+				871FF6F9868E4AF4E09B4E57E99E0D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0D55A322309A1A011DAEEF2CC6299E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-VEGameRTC_Example";
+			productName = Pods_VEGameRTC_Example;
+			productReference = AEBFD497341C9118BB5C0030CEA1DF99 /* Pods-VEGameRTC_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D393B8FE2592D9A500D61D8539065C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1490FC383347640CABEB02E722CACA2E /* Pods-VEGameRTC_Example */,
+				0DF19A1B893FD8076C0FA71F44FF66CC /* Pods-VEGameRTC_Tests */,
+				80FC876710190D6B2A390F0F72D13677 /* VEGameRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		871FF6F9868E4AF4E09B4E57E99E0D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA350A7B191DC558D399A13DAB6C58FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF4C4EAC13E2D02EB4D706CED1A8902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCCD607289730E2FBC3D2D9587A35D2 /* Pods-VEGameRTC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7197DCD72B30F2552E15F96EA9E25D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC83CBFDF92742A80C65EE0BAD2C033E /* Pods-VEGameRTC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D8D76FC7870C1DE063B2BCD8C1F93EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VEGameRTC_Example";
+			target = 1490FC383347640CABEB02E722CACA2E /* Pods-VEGameRTC_Example */;
+			targetProxy = 0C02217A4D5B83A55266F71509EA38E2 /* PBXContainerItemProxy */;
+		};
+		E0D55A322309A1A011DAEEF2CC6299E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VEGameRTC;
+			target = 80FC876710190D6B2A390F0F72D13677 /* VEGameRTC */;
+			targetProxy = 3F830744D1B00A40713A376E3CC2592B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D52AF5CB20CD0565557638CD99E4D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 849BA6608A4F1389E4F4FFB3A5FBBDBE /* Pods-VEGameRTC_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VEGameRTC_Tests/Pods-VEGameRTC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VEGameRTC_Tests/Pods-VEGameRTC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A1D046070F2DF119DE14A60E6919039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11140C180929941D870F5DCF74A0359A /* Pods-VEGameRTC_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VEGameRTC_Example/Pods-VEGameRTC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VEGameRTC_Example/Pods-VEGameRTC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A7B278E3DB8A733F3FFAA492FF452730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EDB5CA802178128085AD931AB8F4E76 /* VEGameRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B791CA308C3C85A952CFD12226DEB1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1826D14B214A10CBC723128292651D0 /* Pods-VEGameRTC_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VEGameRTC_Tests/Pods-VEGameRTC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VEGameRTC_Tests/Pods-VEGameRTC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1B8AE6FE3389A78E0B82A5DE078EF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB70AD75F3CBAF4C3E8B97F7910FF65 /* VEGameRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F413AEBE9F2AD9D3AFB0FE359C6430E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC73D5A610617B937D4A9EF36F454CF /* Pods-VEGameRTC_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VEGameRTC_Example/Pods-VEGameRTC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VEGameRTC_Example/Pods-VEGameRTC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490C5B4514541B1955219586DF285619 /* Build configuration list for PBXAggregateTarget "VEGameRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B8AE6FE3389A78E0B82A5DE078EF7A /* Debug */,
+				A7B278E3DB8A733F3FFAA492FF452730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68438BF4D92A29987D633D7CD89A4CEB /* Build configuration list for PBXNativeTarget "Pods-VEGameRTC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F413AEBE9F2AD9D3AFB0FE359C6430E0 /* Debug */,
+				6A1D046070F2DF119DE14A60E6919039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F1758861F4634E750C0974597D026F /* Build configuration list for PBXNativeTarget "Pods-VEGameRTC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D52AF5CB20CD0565557638CD99E4D52 /* Debug */,
+				B791CA308C3C85A952CFD12226DEB1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

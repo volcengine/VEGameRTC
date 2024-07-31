@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'VEGameRTC_Example' do
+  pod 'VEGameRTC', :path => '../'
+
+  target 'VEGameRTC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
