@@ -27,3 +27,7 @@ zhenggaoting, zhenggaoting@bytedance.com
 ## License
 
 VEGameRTC is available under the MIT license. See the LICENSE file for more info.
+
+## Security and privacy
+This project takes security seriously. 
+For vulnerability reporting and supported versions, see [SECURITY.md](SECURITY.md)
